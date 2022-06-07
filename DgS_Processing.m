@@ -22,6 +22,8 @@ function varargout = DgS_Processing(varargin)
 
 % Edit the above text to modify the response to help DgS_Processing
 
+% Jasmine Zhu,2022, jzhu@whoi.edu.
+
 % Last Modified by GUIDE v2.5 02-Jun-2022 08:43:53
 
 % Begin initialization code - DO NOT EDIT

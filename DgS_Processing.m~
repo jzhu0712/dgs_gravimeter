@@ -153,8 +153,8 @@ handles.dat.ax = 0.00001*iRax;
 handles.dat.ts = iT; % numeric date in seconds
 handles.dat.td = iT/24/3600; % numerical date in days
 handles.dat.datetime = datetime(yr,mon,dd,hh,mm,ss);
-doy = day(handles.dat.datetime,'dayofyear');
-% [doy,~] = date2doy(handles.dat.td);  % day of year
+doy = day()
+[doy,~] = date2doy(handles.dat.td);  % day of year
 handles.dat.doy = doy;
 
 handles.fPath = fPath;
